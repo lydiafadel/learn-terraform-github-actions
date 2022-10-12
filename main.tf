@@ -23,8 +23,3 @@ resource "aws_instance" "app_server"{
   instance_type          = "t2.micro"
   subnet_id              = "subnet-0d77553dc9abeae0e"
 
-tags = {
-    Name = "ExampleAppServer"
-  }
-}
-
