@@ -22,4 +22,4 @@ resource "aws_instance" "app_server"{
   ami                    = "ami-02d0b1ffa5f16402d"
   instance_type          = "t2.micro"
   subnet_id              = "subnet-0d77553dc9abeae0e"
-
+}
